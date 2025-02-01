@@ -51,7 +51,7 @@ const AskAI = () => {
 
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyAflcNbQj6R69KsOsfs-DBl9xDI0tFXufQ`,
+        url: `--------------------------your api key here------------------------------`,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
